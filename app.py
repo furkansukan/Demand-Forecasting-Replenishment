@@ -12,7 +12,7 @@ st.title("Demand Forecasting & Replenishment")
 # Sol bar (Sidebar) oluşturma
 sidebar = st.sidebar
 st.sidebar.title("RNV.ai")
-    image = Image.open('logo.png')
+image = Image.open('logo.png')
     with st.sidebar:
         st.image(image, caption='rnv.ai', use_column_width=True)
         
