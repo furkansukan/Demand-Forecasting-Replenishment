@@ -3,7 +3,6 @@ import pandas as pd
 from PIL import Image
 import streamlit as st
 from prophet import Prophet
-
 import matplotlib.pyplot as plt
 
 # Streamlit sayfa başlığı
@@ -12,11 +11,12 @@ st.title("Demand Forecasting & Replenishment")
 # Sol bar (Sidebar) oluşturma
 sidebar = st.sidebar
 st.sidebar.title("RNV.ai")
-image = Image.open('logo.png')
-    with st.sidebar:
-        st.image(image, caption='rnv.ai', use_column_width=True)
-        
-        st.write("Akıllı stok yönetimi ile satışlarınızı artırın")
+
+# Logo yükleme ve görüntüleme
+image = Image.open('logo.png')  # 'logo.png' dosyasının doğru yerde olduğundan emin olun
+with st.sidebar:  # 'with' bloğu düzeltildi
+    st.image(image, caption='rnv.ai', use_column_width=True)
+    st.write("Akıllı stok yönetimi ile satışlarınızı artırın")
 # Sayfa seçenekleri
 pages = {
     "Ana Sayfa": "home",
