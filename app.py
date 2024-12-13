@@ -10,13 +10,13 @@ st.title("Demand Forecasting & Replenishment")
 
 # Sol bar (Sidebar) oluşturma
 sidebar = st.sidebar
-st.sidebar.title("RNV.ai")
+st.sidebar.title("KangAI")
 
 # Logo yükleme ve görüntüleme
 image = Image.open('logo.png')  # 'logo.png' dosyasının doğru yerde olduğundan emin olun
 with st.sidebar:  # 'with' bloğu düzeltildi
-    st.image(image, caption='rnv.ai', use_column_width=True)
-    st.write("Akıllı stok yönetimi ile satışlarınızı artırın")
+    st.image(image, caption='KangAI', use_column_width=True)
+    st.write("Kamyon, tır çeker kangal, Sivas")
 # Sayfa seçenekleri
 pages = {
     "Ana Sayfa": "home",
