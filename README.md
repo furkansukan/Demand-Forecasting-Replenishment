@@ -128,7 +128,6 @@ Herhangi bir sorunuz veya öneriniz varsa, bana şu kanallardan ulaşabilirsiniz
 
 🎗️ Demand Forecasting & Replenishment Sitesi: [Websitesi](https://demand-forecasting-replenishment-furkansukan.streamlit.app/)
 
-f❤️r RNV.ai
 ---
 
 
